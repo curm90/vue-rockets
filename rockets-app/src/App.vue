@@ -1,7 +1,7 @@
 <template>
   <section>
     <nav-bar></nav-bar>
-    <rockets></rockets>
+    <rockets class="container"></rockets>
   </section>
 </template>
 
