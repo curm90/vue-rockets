@@ -1,14 +1,19 @@
 <template>
-  <rockets></rockets>
+  <section>
+    <nav-bar></nav-bar>
+    <rockets></rockets>
+  </section>
 </template>
 
 <script>
-import Rockets from "@/views/Rockets.vue";
+import Rockets from "./views/Rockets";
+import NavBar from "./components/navBar";
 
 export default {
   name: "App",
   components: {
     Rockets,
+    NavBar,
   },
 };
 </script>
