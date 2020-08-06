@@ -32,3 +32,5 @@ const rockets = [
     name: 'BFR (Big Falcon Rocket)',
   },
 ];
+
+module.exports = rockets;
