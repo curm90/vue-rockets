@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/rockets', (req, res) => {
-  res.json({ rockets });
+  res.json(rockets);
 });
 
 app.listen(port, () => {

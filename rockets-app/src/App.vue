@@ -7,14 +7,14 @@
 
 <script>
 import Rockets from "./views/Rockets";
-import NavBar from "./components/navBar";
+import NavBar from "./components/NavBar";
 
 export default {
   name: "App",
   components: {
     Rockets,
-    NavBar,
-  },
+    NavBar
+  }
 };
 </script>
 

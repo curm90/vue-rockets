@@ -1,4 +1,4 @@
-const rockets = [
+module.exports = [
   {
     image:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Falcon_Heavy_Demo_Mission_%2839337245145%29.jpg/220px-Falcon_Heavy_Demo_Mission_%2839337245145%29.jpg',
@@ -32,5 +32,3 @@ const rockets = [
     name: 'BFR (Big Falcon Rocket)',
   },
 ];
-
-module.exports = rockets;
