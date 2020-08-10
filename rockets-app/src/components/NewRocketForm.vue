@@ -71,6 +71,7 @@ export default {
     onAddRocket() {
       this.addRocket(this.rocket);
       this.rocket = getEmptyRocket();
+      this.showForm = false;
     }
   }
 };

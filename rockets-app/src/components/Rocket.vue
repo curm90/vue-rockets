@@ -10,13 +10,20 @@
     <div class="card-body">
       <h5 class="card-title">{{ rocket.name }}</h5>
       <p class="card-text">{{ rocket.description }}</p>
+      <button
+        @click="removeRocket(rocket)"
+        type="button"
+        class="btn btn-danger"
+      >
+        Delete
+      </button>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  props: ['rocket'],
+  props: ['rocket', 'removeRocket'],
 };
 </script>
 
